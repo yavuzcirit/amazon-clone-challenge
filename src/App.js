@@ -1,9 +1,14 @@
 import './App.css';
+import Header from './Header';
+import Home from './Home';
 
 function App() {
   return (
-    <div className="App">
-      Hello yavuz Clever
+    //BEM standards
+    <div className="app">
+      <Header />
+      <Home />
+
     </div>
   );
 }
