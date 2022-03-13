@@ -1,9 +1,10 @@
 import React from 'react'
 import CurrencyFormat from 'react-currency-format'
+import './Subtotal.css'
 
 const Subtotal = () => {
   return (
-    <div className='"subtotal'>
+    <div className='subtotal'>
       <CurrencyFormat 
       renderText={(value) => (
         <>
@@ -21,6 +22,8 @@ const Subtotal = () => {
       thousandSeparator={true}
       prefix={"£"}
       />
+
+      <button>Proceed to Checkout</button>
     </div>
   )
 }

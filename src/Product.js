@@ -2,6 +2,12 @@ import React from 'react'
 import './Product.css'
 
 const Product = ({title, image, price, rating, id}) => {
+
+  const addtoBasket = () => {
+    //dispatch the item into the Data Layer
+    
+  }
+
   return (
     <div id={id} className="product">
       <div className="product__info">
@@ -23,7 +29,7 @@ const Product = ({title, image, price, rating, id}) => {
       src={image}
       alt=""
       />
-      <button className="" type="submit">Add to Basket</button>
+      <button onClick={addtoBasket}>Add to Basket</button>
     </div>
   )
 }

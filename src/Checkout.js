@@ -7,9 +7,9 @@ const Checkout = () => {
     <div className="checkout">
       <div className="checkout__left">
         <img 
-        className="checkout__ad" 
-        src="https://images-na.ssl-images-amazon.com/images/I/7191qk-xnFL.jpg"
-        alt=""
+          className="checkout__ad" 
+          src="https://images-na.ssl-images-amazon.com/images/I/7191qk-xnFL.jpg"
+          alt=""
         />
         <div>
           <h2 className="checkout__title">Your Shopping Basket</h2>
@@ -22,7 +22,6 @@ const Checkout = () => {
       <div className="checkout__right">
         <Subtotal />
       </div>
-    
     </div>
   )
 }
